@@ -1,0 +1,26 @@
+{
+  "dataset": "synthetic lead sample",
+  "records_after_deduplication": 1200,
+  "train_records": 960,
+  "test_records": 240,
+  "positive_rate": 0.535,
+  "selection_metric": "roc_auc",
+  "selected_model": "logistic_regression",
+  "calibration": "not evaluated; scores are ranking scores, not calibrated probabilities",
+  "metrics_at_threshold_0_5": {
+    "logistic_regression": {
+      "precision": 0.7143,
+      "recall": 0.6641,
+      "f1": 0.6883,
+      "roc_auc": 0.7484,
+      "accuracy": 0.6792
+    },
+    "random_forest": {
+      "precision": 0.687,
+      "recall": 0.6172,
+      "f1": 0.6502,
+      "roc_auc": 0.7201,
+      "accuracy": 0.6458
+    }
+  }
+}

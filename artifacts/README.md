@@ -1,0 +1,1 @@
+Run `python train.py` from the project root to generate `model.joblib` and `evaluation.json`. These generated files are intentionally not included; the source dataset and deterministic training procedure are included so the results can be reproduced in the target Python environment.
