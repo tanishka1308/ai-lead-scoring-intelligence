@@ -37,6 +37,8 @@ Training writes `artifacts/model.joblib` and `artifacts/evaluation.json`. The pr
 
 ## Run the API and dashboard
 
+Deployed link: https://ai-lead-scoring-intelligence-1.onrender.com/
+
 In one terminal:
 
 ```bash
